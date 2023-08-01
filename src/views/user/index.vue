@@ -1,19 +1,17 @@
 <template>
-  <div id="app">
-    <router-view/>
-
+  <div class="user-d">
+    user
   </div>
 </template>
 
 <script>
 export default {
+  name: 'user-d',
   data () {
     return {}
   },
   methods: {},
-  components: {
-
-  }
+  components: {}
 }
 </script>
 
