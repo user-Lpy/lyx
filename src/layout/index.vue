@@ -6,7 +6,7 @@
       <van-tabbar-item
       v-for="tab in tabbarList"
       :key="tab.id"
-      :icon="tab.icon"
+      :class="tab.icon"
       :to="tab.name">
         {{ tab.title }}
       </van-tabbar-item>
@@ -24,25 +24,25 @@ export default {
         {
           id: 1,
           title: '精选',
-          icon: 'home-o',
+          icon: 'iconfont icon- icon-compass',
           name: '/choiceness'
         },
         {
           id: 2,
           title: '分类',
-          icon: 'search',
+          icon: 'iconfont icon- icon-yingyong',
           name: '/group'
         },
         {
           id: 3,
           title: '购物车',
-          icon: 'friends-o',
+          icon: 'iconfont icon- icon-gouwucheman',
           name: '/order'
         },
         {
           id: 4,
           title: '我的',
-          icon: 'setting-o',
+          icon: 'iconfont icon- icon-31wode',
           name: '/user'
         }
       ]
